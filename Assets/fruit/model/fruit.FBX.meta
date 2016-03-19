@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 1a54d1c1ee3d4bc4e8b8e84a1c8fdcfc
+timeCreated: 1438776700
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: AO Mesh
+    100004: apple
+    100006: apple_part_1
+    100008: apple_part_2
+    100010: apple_part_3
+    100012: banana
+    100014: banana_part_1
+    100016: banana_part_2
+    100018: banana_part_3
+    100020: Box001
+    100022: fruit low
+    100024: fruit low001
+    100026: fruit low002
+    100028: Object001
+    100030: orange_part_1
+    100032: orange_part_2
+    400000: //RootNode
+    400002: AO Mesh
+    400004: apple
+    400006: apple_part_1
+    400008: apple_part_2
+    400010: apple_part_3
+    400012: banana
+    400014: banana_part_1
+    400016: banana_part_2
+    400018: banana_part_3
+    400020: Box001
+    400022: fruit low
+    400024: fruit low001
+    400026: fruit low002
+    400028: Object001
+    400030: orange_part_1
+    400032: orange_part_2
+    2300000: //RootNode
+    2300002: AO Mesh
+    2300004: apple
+    2300006: apple_part_1
+    2300008: apple_part_2
+    2300010: apple_part_3
+    2300012: banana
+    2300014: banana_part_1
+    2300016: banana_part_2
+    2300018: banana_part_3
+    2300020: Box001
+    2300022: fruit low
+    2300024: fruit low001
+    2300026: fruit low002
+    2300028: Object001
+    2300030: orange_part_1
+    2300032: orange_part_2
+    3300000: //RootNode
+    3300002: AO Mesh
+    3300004: apple
+    3300006: apple_part_1
+    3300008: apple_part_2
+    3300010: apple_part_3
+    3300012: banana
+    3300014: banana_part_1
+    3300016: banana_part_2
+    3300018: banana_part_3
+    3300020: Box001
+    3300022: fruit low
+    3300024: fruit low001
+    3300026: fruit low002
+    3300028: Object001
+    3300030: orange_part_1
+    3300032: orange_part_2
+    4300000: fruit low001
+    4300002: apple
+    4300004: banana
+    4300006: Object001
+    4300008: fruit low
+    4300010: AO Mesh
+    4300012: Box001
+    4300014: banana_part_3
+    4300016: apple_part_1
+    4300018: apple_part_2
+    4300020: apple_part_3
+    4300022: orange_part_1
+    4300024: orange_part_2
+    4300026: banana_part_1
+    4300028: banana_part_2
+    4300030: fruit low002
+    6400000: //RootNode
+    6400002: AO Mesh
+    6400004: apple
+    6400006: apple_part_1
+    6400008: apple_part_2
+    6400010: apple_part_3
+    6400012: banana
+    6400014: banana_part_1
+    6400016: banana_part_2
+    6400018: banana_part_3
+    6400020: Box001
+    6400022: fruit low
+    6400024: fruit low001
+    6400026: fruit low002
+    6400028: Object001
+    6400030: orange_part_1
+    6400032: orange_part_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
