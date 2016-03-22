@@ -13,15 +13,6 @@ public class CameraController : MonoBehaviour {
 	// This object must have a ThalmicMyo script attached.
 	public GameObject myo = null;
 
-	// A rotation that compensates for the Myo armband's orientation parallel to the ground, i.e. yaw.
-	// Once set, the direction the Myo armband is facing becomes "forward" within the program.
-	// Set by making the fingers spread pose or pressing "r".
-	private Quaternion _antiYaw = Quaternion.identity;
-
-	// A reference angle representing how the armband is rotated about the wearer's arm, i.e. roll.
-	// Set by making the fingers spread pose or pressing "r".
-	private float _referenceRoll = 0.0f;
-
 	// The pose from the last update. This is used to determine if the pose has changed
 	// so that actions are only performed upon making them rather than every frame during
 	// which they are active.
