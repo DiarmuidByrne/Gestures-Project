@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{19721A13-D2A6-45E1-3962-20E31032EBBD}") = "FruitSlicer", "Assembly-CSharp.csproj", "{76EA32E4-7363-7AA3-42BF-33CB4BA485E6}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitSlicer.CSharp", "FruitSlicer.CSharp.csproj", "{B9042BE4-BA67-65B7-AFF7-EF3AC31E1434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76EA32E4-7363-7AA3-42BF-33CB4BA485E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76EA32E4-7363-7AA3-42BF-33CB4BA485E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76EA32E4-7363-7AA3-42BF-33CB4BA485E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76EA32E4-7363-7AA3-42BF-33CB4BA485E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9042BE4-BA67-65B7-AFF7-EF3AC31E1434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9042BE4-BA67-65B7-AFF7-EF3AC31E1434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9042BE4-BA67-65B7-AFF7-EF3AC31E1434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9042BE4-BA67-65B7-AFF7-EF3AC31E1434}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

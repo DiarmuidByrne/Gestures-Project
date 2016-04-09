@@ -23,13 +23,21 @@ public class JointMovement : MonoBehaviour {
 	// When set to true, the current position will center the Myo on screen
 	private bool updateReference = false;
 	private float powerupTimer = 5f;
+	private bool timerActive = false;
 	private Pose _lastPose = Pose.Unknown;
 
 	void Update () {
+		if (timerActive) {
+			powerupTimer -= Time.deltaTime;
+			Debug.Log(powerupTimer);
+		}
 		if(powerupTimer <= 0) {
 			powerupTimer = 5f;
-			Time.timeScale = 1f;
-			spawner.GetComponent<FruitSpawner>().setPowerUpReady(false);
+			Time.timeScale = 1.1f;
+			powerUpCanvas.GetComponent<CanvasGroup>().alpha = 0;
+
+			timerActive = false;
+            spawner.GetComponent<FruitSpawner>().setPowerUpReady(false);
 		}
 		updateReference = false;
 
@@ -79,6 +87,7 @@ public class JointMovement : MonoBehaviour {
 					powerupTimer -= Time.deltaTime;
 					// Make canvas visible for effect
 					scoreText.color = Color.white;
+					timerActive = true;
 					spawner.GetComponent<FruitSpawner>().setPowerUpReady(false);
 					spawner.GetComponent<FruitSpawner>().setPowerCombo(0);
 
