@@ -44,7 +44,8 @@ The main custom scripts consist of:
 - Main Menu script
 <BR> This script controls all menus and buttons used to navigate the application. It controls the different menus using canvas group components attached to the respective GameObjects to control their visibility.
 
-## Conclusions & Recommendations
+## Conclusions
+The Myo armband provided an interesting change of pace from standard programming and testing. While gestures can allow users to interact with software and hardware in unique ways, Myo is still a ways off a game-changing product. The inconsistent gesture recognition along with warmup times makes for inconvenient usage.
 
 ## References
 - [1] [Myo Homepage](https://www.myo.com/)
