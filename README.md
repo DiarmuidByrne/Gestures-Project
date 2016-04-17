@@ -17,7 +17,14 @@ The default gestures that come pre-packaged with the device are:
 
 <img src="https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAC7AAAAJDgxMzg0YzZjLTY3MjQtNGFiNy04ZTNmLWRlNGY2ZjQwYjAwYQ.jpg">
 
-While there is an option to create custom gestures, the standard gestures were sufficient for the application I wanted to create. This was due to the timing nature of the gameplay, and the more natural the gesture is, the easier it would be to make in the middle of a game. i.e. A fist gesture starts an in-game powerup if the player has collected enough fruit without missing any. Furthermore, attempting to use more complicated gesture might cause the player to miss a fruit, and lose the game.
+While there is an option to create custom gestures, the standard gestures were sufficient for the application I wanted to create. This was due to the timing nature of the gameplay, and the more natural the gesture is, the easier it would be to make in the middle of a game.
+The gestures I used in the game are:
+- Spread Fingers (Open)
+</BR>Spread fingers is used to navigate the in-game menus. To make selections the user must simply move their arm until the onscreen pointer is hovering over a button and spread their fingers to select the button.
+- Close fist
+</BR> The close fist gesture is used to activate a powerup when one is available. If the player collects 5 or more fruit in a row, the score will turn red indicating that a powerup is available. The powerup slows down time to make it easier to collect more fruit.
+- Double tap
+</BR> Double tap can be used to re-center the pointer at any time, making the user's current arm position as the reference point. This was done to overcome any tracking or syncing issues the user may experience.
 
 ## Hardware Used
 The Myo armband from Thalmic Labs was used to power this project. From their website, the Myo armband is "a wearable gesture control and motion control device" that allows control of computers, phones and tablets "touch-free".[1](Myo HomePage)

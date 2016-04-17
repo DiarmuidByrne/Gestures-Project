@@ -101,11 +101,11 @@ public class JointMovement : MonoBehaviour {
 		}
 
 		if (updateReference) {
-			referenceVector = new Vector2(myo.transform.forward.x *200, myo.transform.forward.y * 70);
+			referenceVector = new Vector2(myo.transform.forward.x*-1 *200, myo.transform.forward.y * 70);
         }
 		// Here the anti-roll and yaw rotations are applied to the myo Armband's forward direction to yield
 		// the orientation of the joint.
-		transform.position = new Vector2((myo.transform.forward.x *200) - referenceVector.x, myo.transform.forward.y * 70 - referenceVector.y);
+		transform.position = new Vector2((myo.transform.forward.x*-1 *200) - referenceVector.x, myo.transform.forward.y * 70 - referenceVector.y);
 	}
 
 	void ExtendUnlockAndNotifyUserAction(ThalmicMyo myo) {
