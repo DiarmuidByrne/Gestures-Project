@@ -57,3 +57,4 @@ The Myo armband provided an interesting change of pace from standard programming
 ## References
 - [1] [Myo Homepage](https://www.myo.com/)
 - [2] [Myo SDK](https://developer.thalmic.com/docs/api_reference/platform/index.html)
+- [3] [3D Fruit Models](https://www.assetstore.unity3d.com/en/#!/content/43197)

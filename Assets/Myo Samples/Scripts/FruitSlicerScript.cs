@@ -53,7 +53,7 @@ public class FruitSlicerScript : MonoBehaviour {
 		}
 
 		if (hit && active && transform.parent != fruitPool.transform) {
-			//StartCoroutine(FadeTo(transform, 1.0f, 1.0f));
+
 			// Prevent fruit from being hit again
 			active = false;
 			returnToPool();

@@ -12,8 +12,8 @@ public class FruitSpawner : MonoBehaviour {
 	public Text finalScoreText, finalComboText;
 	public GameObject gameOverPanel;
 
-	private const float MAX_TIME = 4f;
-	private const float MIN_TIME = 2f;
+	private const float MAX_TIME = 3f;
+	private const float MIN_TIME = 1.5f;
 	private bool timerActive = false;
 	private float timeToSpawn;
 	public int fruitsDropped = 0;

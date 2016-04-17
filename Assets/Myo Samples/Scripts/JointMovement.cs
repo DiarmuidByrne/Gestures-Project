@@ -92,7 +92,6 @@ public class JointMovement : MonoBehaviour {
 					spawner.GetComponent<FruitSpawner>().setPowerCombo(0);
 
 					powerUpCanvas.GetComponent<CanvasGroup>().alpha = 1;
-
 				}
 			}
 		}
